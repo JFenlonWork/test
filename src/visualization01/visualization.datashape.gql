@@ -1,0 +1,11 @@
+type data {
+	ExampleVariable1: String!
+	ExampleVariable2: Boolean!
+	ExampleVariable3: [Query]!
+}
+
+type Query implements MooDElement {
+	key: ID!
+	Name: String! @UI (default: "name")
+	Value: Any!
+}

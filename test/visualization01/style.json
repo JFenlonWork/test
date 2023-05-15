@@ -1,0 +1,19 @@
+{
+    "URL": "visualization01/simple.css",
+    "style" : {
+    "margin": {
+        "left": 20,
+        "right": 20,
+        "top": 20,
+        "bottom": 20
+    },
+    "line" : {
+        "type": "monotone",
+        "strokeColour" : "#8884d8"
+    },
+    "CartesianGrid" : {
+        "stroke": "#ccc",
+        "strokeDasharray" : "5 5"
+    }
+}
+}
